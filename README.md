@@ -16,7 +16,7 @@
 
 ## 使用
 
-1. 自行构建 APK，或从 GitHub Actions 的 `debug-apk` artifact 下载测试 APK。测试包不作为稳定签名发行。
+1. 从 [测试版 Releases](https://github.com/iChenwin/mingtiao/releases) 下载 APK，或自行构建 / 从 Actions 的 `debug-apk` artifact 下载。测试包使用调试签名，不作为稳定签名发行。
 2. 在应用中阅读权限说明，手动进入 Android 无障碍设置启用「明跳」。
 3. 在「应用」中只启用你需要跳广告的应用；开启首页总开关。
 4. 保持预览模式，重新进入目标应用，检查「记录」中的规则命中。
