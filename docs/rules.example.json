@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "name": "示例：开屏跳过（请改成实际包名）",
+      "package": "org.example.demo",
+      "enabled": false,
+      "activity": "",
+      "trigger": "text:广告",
+      "target": "id:org.example.demo:id/skip_ad",
+      "action": "click",
+      "popup": false,
+      "windowSeconds": 8
+    },
+    {
+      "name": "示例：明确广告弹窗",
+      "package": "org.example.demo",
+      "enabled": false,
+      "trigger": "text:这是一条广告",
+      "target": "text:关闭广告",
+      "action": "click",
+      "popup": true
+    },
+    {
+      "name": "示例：无控件按钮时坐标跳过",
+      "package": "org.example.demo",
+      "enabled": false,
+      "trigger": "text:广告倒计时",
+      "action": "tap",
+      "x": 0.92,
+      "y": 0.08,
+      "popup": false,
+      "windowSeconds": 6
+    }
+  ]
+}

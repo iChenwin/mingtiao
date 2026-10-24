@@ -1,0 +1,5 @@
+<resources>
+<string name="app_name">明跳</string>
+<string name="service_description">仅对你启用的应用匹配跳过按钮和自定义规则。无障碍权限能读取界面并执行点击，Android 不提供只读广告权限。明跳不联网、不截图、不保存界面文本；你可随时暂停或关闭服务。首次使用请先阅读应用内权限说明。</string>
+<style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar"><item name="android:fontFamily">sans</item><item name="android:colorAccent">#177C65</item><item name="android:windowLightStatusBar">true</item><item name="android:statusBarColor">#F5F7F4</item><item name="android:navigationBarColor">#F5F7F4</item><item name="android:windowActionModeOverlay">true</item></style>
+</resources>
